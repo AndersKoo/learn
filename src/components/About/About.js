@@ -8,9 +8,9 @@ import keio from "../../img/keio.svg";
 import masterclass from "../../img/masterclass.svg";
 import autralia from "../../img/australia.svg";
 import hopkins from "../../img/hopkins.svg";
-import iowa from "../../img/iowa.svg";
-import royal from "../../img/royal.svg";
-import oregon from "../../img/oregon.svg";
+// import iowa from "../../img/iowa.svg";
+// import royal from "../../img/royal.svg";
+// import oregon from "../../img/oregon.svg";
 
 export default function About() {
   return (

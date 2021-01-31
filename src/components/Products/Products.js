@@ -10,7 +10,6 @@ export default function Products() {
       <div className="plans">
         <Bounce left>
           <div className="plan plan--light">
-            {/*  */}
             <h2 className="plan__title">basic</h2>
             <p className="plan__price">
               $49<span>/month</span>
@@ -19,7 +18,7 @@ export default function Products() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quasi
               sit reprehenderit aliquam.
             </p>
-            <a href="#" className="Buy now"></a>
+            {/* <a href="#" className="Buy now"></a> */}
           </div>
         </Bounce>
 
@@ -33,7 +32,7 @@ export default function Products() {
               Eleifend cursus volutpat risus convallis nam sed quam
               sollicitudin.
             </p>
-            <a href="#" className="Buy now"></a>
+            {/* <a href="#" className="Buy now"></a> */}
           </div>
         </Zoom>
         <Bounce right>
@@ -45,7 +44,7 @@ export default function Products() {
             <p className="plan__description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <a href="#" className="Buy now"></a>
+            {/* <a href="#" className="Buy now"></a> */}
           </div>
         </Bounce>
       </div>

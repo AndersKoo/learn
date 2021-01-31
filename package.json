@@ -1,6 +1,5 @@
 {
   "name": "lorem",
-  "homepage":" https://anderskoo.github.io/learn/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

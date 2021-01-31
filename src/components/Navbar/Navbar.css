@@ -1,0 +1,143 @@
+/* Custom properties */
+:root {
+  --clr-main: #f3c623;
+  --clr-dark-green: #10375c;
+  --clr-light-green: #127681;
+  --clr-white: #f4f6ff;
+  --border-size: 0.1px;
+
+  --ff-primary: "Montserrat";
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Hiding hamburger links  */
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/* Navbar container */
+.NavbarItems {
+  background: #f3c623;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+/* Navbar logo */
+.navbar-logo {
+  color: #10375c;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+/* Grid container for navbar */
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+/* Styling for navbar links */
+.nav-links {
+  color: var(--clr-dark-green);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+/* underline effect (links) */
+.underline::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: var(--clr-dark-green);
+  transition: width 0.3s;
+}
+
+/* underline effect (links) */
+.underline:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+/* Hamburger icon */
+.fa-bars {
+  color: var(--clr-dark-green);
+}
+
+/* Responsive design */
+@media screen and (max-width: 960px) {
+  .navbar-logo {
+    color: #10375c;
+    justify-self: start;
+    margin-left: -46px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  .NavbarItems {
+    position: relative;
+    /* width: 41vh; */
+  }
+  /* Side menu container */
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 79px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+  /* Fadein from left */
+  .nav-menu.active {
+    background: var(--clr-main);
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-links:hover {
+    background-color: var(--clr-light-green);
+    color: var(--clr-white);
+    border-radius: 0;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: var(--clr-dark-green);
+    font-size: 2rem;
+  }
+}

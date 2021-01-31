@@ -1,0 +1,185 @@
+/* Title  */
+.title {
+  margin-top: 20px;
+  font-size: 3em;
+}
+
+/* About us, info */
+.aboutus {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+/* Container for text/image */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 70em;
+  height: 50vh;
+  margin: 0 auto;
+  margin-top: -66px;
+}
+
+/* Styling */
+.about {
+  margin-top: 78px;
+}
+
+/* Adjusting position handshake img */
+.handshake {
+  width: 250px;
+  height: 150px;
+  margin-top: 77px;
+  margin-bottom: 34px;
+}
+
+/* Container for partner logos */
+.partners {
+  display: flex;
+  flex-direction: row;
+  margin-top: -245px;
+  font-size: 3em;
+}
+
+/* Logo image */
+.uni--logo {
+  width: 225px;
+  height: 250px;
+  margin-left: 59px;
+  filter: contrast(0%);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  position: relative;
+}
+
+/* Effect */
+.uni--logo:hover {
+  transform: scale(1.02, 1.02);
+  filter: contrast(100%);
+}
+
+/* Container for logo image */
+.logo--container {
+  display: flex;
+  flex-direction: row;
+  margin-top: -320px;
+  margin-left: 137px;
+  justify-content: center;
+  height: 137px;
+  position: absolute;
+  text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 500px) {
+  .title {
+    margin-top: 20px;
+    font-size: 1.7em;
+  }
+  .aboutus {
+    margin-top: 20px;
+    font-size: 1.3em;
+  }
+
+  .partners {
+    font-size: 1.7em !important;
+    margin-top: -32em;
+    position: absolute;
+  }
+
+  .logo--container {
+    display: flex;
+    flex-direction: column !important;
+    margin-top: -380px;
+    margin-left: 102px;
+    justify-content: center;
+    height: 137px;
+    position: absolute;
+    text-align: center;
+    bottom: -289px;
+    z-index: 1;
+  }
+
+  .uni--logo {
+    width: 225px;
+    height: 375px;
+    margin-left: 59px;
+    filter: contrast(0%);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    margin-top: -79px;
+  }
+
+  .uni--logo:hover {
+    transform: scale(1.02, 1.02);
+    filter: contrast(100%);
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 20em !important;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 280px;
+  }
+}
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-device-width: 250px) and (max-device-width: 480px) {
+  .title {
+    margin-top: 20px;
+    font-size: 1.3em !important;
+  }
+  .about {
+    margin-left: -21px;
+  }
+  .aboutus {
+    margin-top: 20px;
+    width: 13em;
+    font-size: 14px !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .handshake {
+    width: 150px;
+    height: 150px;
+    margin-top: 77px;
+    margin-bottom: 34px;
+  }
+
+  .partners {
+    display: flex;
+    flex-direction: row;
+    top: 53em;
+    font-size: 3em;
+    margin-left: -50px;
+    position: absolute;
+  }
+
+  .logo--container {
+    display: flex;
+    flex-direction: row;
+    margin-top: -380px;
+    left: -123px;
+    top: 1291px;
+    justify-content: center;
+    height: 137px;
+    position: absolute;
+    text-align: center;
+  }
+  .uni--logo {
+    width: 200px !important;
+    height: 200px !important;
+    margin-left: 59px;
+    filter: contrast(0%);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    position: relative;
+  }
+}

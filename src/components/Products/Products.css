@@ -1,0 +1,133 @@
+/* Custom properties */
+:root {
+  --clr-main: #f3c623;
+  --clr-dark-green: #10375c;
+  --clr-light-green: #127681;
+  --clr-white: #f4f6ff;
+  --ff-primary: "Montserrat";
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Product title */
+.products_header_title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 3em;
+  text-align: center;
+  color: var(--clr-dark-green);
+}
+
+/* Container for product */
+.plans {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0;
+  margin-bottom: 100px;
+}
+
+/* Styling for each product card */
+.plan {
+  width: 200px;
+  padding: 2em;
+  border-radius: 1em;
+  margin: 0 0.5em;
+}
+
+/* Product title */
+.plan__title {
+  text-transform: uppercase;
+  margin: 0 0 1em;
+}
+
+/* Product price_1 */
+.plan__price {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 900;
+  margin: 0;
+}
+/* Product price_2 */
+.plan__price span {
+  display: block;
+  font-size: 1.5625rem;
+  font-weight: 300;
+}
+
+/* Product description */
+.plan__description {
+  margin: 2em 0;
+  line-height: 1.5;
+}
+
+/* Styling middle main card */
+.plan--main {
+  color: var(--clr-light-green);
+  background: var(--clr-main);
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+}
+
+/* Effect */
+.plan--main:hover {
+  transform: scale(1.02, 1.02);
+}
+
+/* Styling sidecard */
+.plan--light {
+  color: var(--clr-dark-green);
+  background: linear-gradient(-45deg, #e5e3e8, #fafafa);
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+}
+
+/* Effect */
+.plan--light:hover {
+  transform: scale(1.02, 1.02) !important;
+}
+
+/* Responsive design */
+@media (max-width: 500px) {
+  .plans {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+    margin-bottom: 100px;
+    align-items: center;
+  }
+
+  .plan {
+    width: 200px;
+    padding: 2em;
+    border-radius: 1em;
+    margin: 0 0.5em;
+    margin-top: 22px;
+  }
+}
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-device-width: 250px) and (max-device-width: 480px) {
+  .products_header_title {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 3em;
+    text-align: center;
+    color: var(--clr-dark-green);
+  }
+
+  .plans {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .plan {
+    width: 200px;
+    padding: 2em;
+    border-radius: 1em;
+    margin: 0 0.5em;
+    margin-top: 12px;
+  }
+}

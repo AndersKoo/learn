@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8d280d09.chunk.css",
+    "main.js": "/static/js/main.4223f1ad.chunk.js",
+    "main.js.map": "/static/js/main.4223f1ad.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2afed4c3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2afed4c3.js.map",
+    "static/js/2.325de942.chunk.js": "/static/js/2.325de942.chunk.js",
+    "static/js/2.325de942.chunk.js.map": "/static/js/2.325de942.chunk.js.map",
+    "static/js/3.b9bd620b.chunk.js": "/static/js/3.b9bd620b.chunk.js",
+    "static/js/3.b9bd620b.chunk.js.map": "/static/js/3.b9bd620b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8d280d09.chunk.css.map": "/static/css/main.8d280d09.chunk.css.map",
+    "static/js/2.325de942.chunk.js.LICENSE.txt": "/static/js/2.325de942.chunk.js.LICENSE.txt",
+    "static/media/australia.ad50897d.svg": "/static/media/australia.ad50897d.svg",
+    "static/media/education.367cc13a.png": "/static/media/education.367cc13a.png",
+    "static/media/handshake.581f06b3.png": "/static/media/handshake.581f06b3.png",
+    "static/media/hopkins.d4e8c6a5.svg": "/static/media/hopkins.d4e8c6a5.svg",
+    "static/media/iowa.b2a8ec97.svg": "/static/media/iowa.b2a8ec97.svg",
+    "static/media/irvine.c64b324b.svg": "/static/media/irvine.c64b324b.svg",
+    "static/media/keio.6a74c795.svg": "/static/media/keio.6a74c795.svg",
+    "static/media/masterclass.a0191706.svg": "/static/media/masterclass.a0191706.svg",
+    "static/media/oregon.0f3bd159.svg": "/static/media/oregon.0f3bd159.svg",
+    "static/media/people.05a2f2bd.png": "/static/media/people.05a2f2bd.png",
+    "static/media/royal.294d4fc6.svg": "/static/media/royal.294d4fc6.svg",
+    "static/media/teaching.229d838f.png": "/static/media/teaching.229d838f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2afed4c3.js",
+    "static/js/2.325de942.chunk.js",
+    "static/css/main.8d280d09.chunk.css",
+    "static/js/main.4223f1ad.chunk.js"
+  ]
+}

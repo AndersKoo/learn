@@ -13,7 +13,7 @@ https://anderskoo.github.io/learn/#/
 ## Beskrivelse<br>
 
 I dette prosjektet eksperimenterer jeg med router og link komponentene i react.js(3 sider).
-Jeg har også lekt litt med biblioteket swup.
+Jeg har også lekt litt med biblioteket React Reveal.
 
 ## Kilder<br>
 
@@ -31,5 +31,5 @@ Handshake<br>
 https://www.hiclipart.com/free-transparent-background-png-clipart-dawrh<br>
 Partner logo<br>
 https://seekvectorlogo.com/<br>
-Complete, flexible, extensible and easy to use page transition library for your web.<br>
-https://swup.js.org/<br>
+React Reveal is an animation framework for React.<br>
+https://www.react-reveal.com/docs/<br>

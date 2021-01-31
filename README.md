@@ -4,8 +4,8 @@
 ## Responsive design
  ![learn](responsive.gif)
  
-## Testing 
-`npm start`
+## Link 
+https://anderskoo.github.io/learn/#/
 
 ## Beskrivelse<br>
 I dette prosjektet eksperimenterer jeg med router og link komponentene i react.js(3 sider). 

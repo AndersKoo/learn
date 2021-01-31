@@ -1,5 +1,5 @@
 ## Demonstrasjon
-
+ ![learn](demo.gif)
 ## Beskrivelse<br>
 I dette prosjektet eksperimenterer jeg med router og link komponentene i react.js. Jeg har også lekt litt med biblioteket swup. 
 

@@ -6,14 +6,14 @@
 
 ![learn](responsive.gif)
 
-## Link
-
-https://anderskoo.github.io/learn/#/
-
 ## Beskrivelse<br>
 
 I dette prosjektet eksperimenterer jeg med router og link komponentene i react.js(3 sider).
 Jeg har også lekt litt med biblioteket React Reveal.
+
+## Link
+
+https://anderskoo.github.io/learn/#/
 
 ## Kilder<br>
 

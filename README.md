@@ -33,3 +33,6 @@ Partner logo<br>
 https://seekvectorlogo.com/<br>
 React Reveal is an animation framework for React.<br>
 https://www.react-reveal.com/docs/<br>
+Free isometric illustrations for designers,
+startups and companies<br>
+https://isometric.online/<br>

@@ -17,10 +17,9 @@ React Footer Tutorial Using Styled Components & Compound Components - Beginner R
 https://www.youtube.com/watch?v=SdWJj1LSQPE&list=LL&index=1<br>
 Cool Link Hover Effect | HTML & CSS<br>
 https://www.youtube.com/watch?v=IYTBAQRBsw0<br>
-Handshae
+Handshake<br>
 https://www.hiclipart.com/free-transparent-background-png-clipart-dawrh<br>
-Partner logo
+Partner logo<br>
 https://seekvectorlogo.com/<br>
-https://www.youtube.com/watch?v=IYTBAQRBsw0<br>
 Complete, flexible, extensible and easy to use page transition library for your web.<br>
 https://swup.js.org/<br>

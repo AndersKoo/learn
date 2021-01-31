@@ -12,7 +12,7 @@ export function FooterContainer() {
             <Footer.Link href="#">Story</Footer.Link>
             <Footer.Link href="#">Customers</Footer.Link>
             <Footer.Link href="#">Success stories</Footer.Link>
-            <Footer.Link href="#">Story</Footer.Link>
+            <Footer.Link href="#">TBD</Footer.Link>
           </Footer.Column>
           <Footer.Column>
             <Footer.Title>Services</Footer.Title>
@@ -24,8 +24,8 @@ export function FooterContainer() {
           <Footer.Column>
             <Footer.Title>Contact Us</Footer.Title>
             <Footer.Link href="#">United States</Footer.Link>
-            <Footer.Link href="#">United Kingdom</Footer.Link>
-            <Footer.Link href="#">Australia</Footer.Link>
+            <Footer.Link href="#">Norway</Footer.Link>
+            <Footer.Link href="#">Sweden</Footer.Link>
             <Footer.Link href="#">Support</Footer.Link>
           </Footer.Column>
           <Footer.Column>

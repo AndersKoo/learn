@@ -6,11 +6,12 @@ import { HashRouter } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
-  // <BrowserRouter>
-  <HashRouter>
+  <BrowserRouter>
+    {/* <HashRouter> */}
     <App />
-  </HashRouter>,
-  // </BrowserRouter>,
+    {/* </HashRouter>, */}
+    //{" "}
+  </BrowserRouter>,
   document.getElementById("root")
 );
 

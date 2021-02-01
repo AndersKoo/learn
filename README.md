@@ -1,4 +1,4 @@
-## Demonstrasjon
+## Demo
 
 ![learn](demo.gif)
 

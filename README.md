@@ -8,8 +8,24 @@
 
 ## Beskrivelse<br>
 
-I dette prosjektet eksperimenterer jeg med router og link komponentene i react.js(3 sider).
-Jeg har også lekt litt med biblioteket React Reveal.
+
+Teknologier: React, router, link, styled-components, CSS hover effects<br>
+
+Beskrivelse:<br>
+
+I dette prosjektet var målet mitt og utvikle en react applikasjon med flere sider (MPA).<br>
+Jeg ønsket også å legge inn en del animasjoner, effekter og responsivt design for en mer levende dynamisk opplevelse.<br> 
+Får å sette opp prosjektet har jeg lært fra Brian Design (navbar og footer) og Conor Bailey Multi Page Application  (MPA).
+
+I denne prosessen lærte jeg: 
+
+•	Link og Route komponenter<br> 	
+•	Styled-components<br>
+•	Custom-properties (CSS)<br>
+•	CSS hover effekter<br>
+•	react-reveal animasjoner<br>
+•	Responsivt design<br>
+•	Oppsett av Multi Page Application (MPA)<br>
 
 ## Link
 

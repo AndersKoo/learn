@@ -12,7 +12,6 @@ Teknologier: React, router, link, styled-components, CSS hover effects<br>
 
 I dette prosjektet var målet mitt og utvikle en react applikasjon med flere sider (MPA).<br>
 Jeg ønsket også å legge inn en del animasjoner, effekter og responsivt design for en mer levende dynamisk opplevelse.<br> 
-Får å sette opp prosjektet har jeg lært fra Brian Design (navbar og footer) og Conor Bailey Multi Page Application (MPA).<br>
 
 I denne prosessen lærte jeg: <br>
 

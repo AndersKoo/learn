@@ -9,6 +9,7 @@
 ## Beskrivelse<br>
 
 Teknologier:<br> 
+
 • React (router, link)<br>
 • styled-components<br>
 • CSS hover effects<br>

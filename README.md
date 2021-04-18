@@ -8,7 +8,10 @@
 
 ## Beskrivelse<br>
 
-Teknologier: React, router, link, styled-components, CSS hover effects<br>
+Teknologier:<br> 
+• React (router, link)<br>
+• styled-components<br>
+• CSS hover effects<br>
 
 I dette prosjektet var målet mitt og utvikle en react applikasjon med flere sider (MPA).<br>
 Jeg ønsket også å legge inn en del animasjoner, effekter og responsivt design for en mer levende dynamisk opplevelse.<br> 

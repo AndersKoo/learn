@@ -2,7 +2,7 @@
 
 ![learn](demo.gif)
 
-## Responsive design
+## Responsivt design
 
 ![learn](responsive.gif)
 
